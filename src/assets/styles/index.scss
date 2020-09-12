@@ -1,0 +1,46 @@
+@import "base/btn";
+@import "base/progress-bar";
+@import "base/card";
+@import "base/header";
+@import "base/title";
+@import "base/animation";
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container {
+  padding-bottom: 40px;
+}
+
+
+button {
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  display: flex;
+  &:focus {
+    outline: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
